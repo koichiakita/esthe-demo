@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Ciel エステサロン</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background: #fffaf8;
+      color: #333;
+    }
+
+    header {
+      background-color: #f8e1e7;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: #c86486;
+    }
+
+    nav a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: #c86486;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-image: url('https://images.unsplash.com/photo-1588776814546-ec0b3d64e2d2?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 4rem 2rem;
+      background-color: #fff;
+    }
+
+    .service {
+      background-color: #fff0f5;
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .service h3 {
+      color: #c86486;
+    }
+
+    .info {
+      padding: 3rem 2rem;
+      background-color: #fdf6f8;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #c86486;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Le Ciel</h1>
+    <nav>
+      <a href="#">ホーム</a>
+      <a href="#">メニュー</a>
+      <a href="#">アクセス</a>
+      <a href="#">予約</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>美しさ、心から。</h2>
+    <p>極上のリラクゼーションと癒しをあなたに。</p>
+  </section>
+
+  <section class="services">
+    <div class="service">
+      <h3>フェイシャル</h3>
+      <p>お肌に潤いと透明感を。</p>
+    </div>
+    <div class="service">
+      <h3>ボディトリートメント</h3>
+      <p>疲れた体を芯から癒します。</p>
+    </div>
+    <div class="service">
+      <h3>ブライダルエステ</h3>
+      <p>特別な日のためのスペシャルケア。</p>
+    </div>
+  </section>
+
+  <section class="info">
+    <h2>店舗情報</h2>
+    <p>東京都渋谷区桜丘町1-2-3<br>営業時間：10:00〜20:00（火曜定休）</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Le Ciel Esthetic Salon</p>
+  </footer>
+
+</body>
+</html>
